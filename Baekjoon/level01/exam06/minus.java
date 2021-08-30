@@ -1,0 +1,16 @@
+package level01.exam06;
+
+import java.util.Scanner;
+
+public class minus {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		
+		System.out.println(a - b);		
+		scanner.close();
+	}
+
+}
