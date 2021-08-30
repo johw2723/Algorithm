@@ -15,7 +15,7 @@ public class sum3 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
-		String result = Integer.toString(a + b);		
+		String result = Integer.toString(a + b);	
 		
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		bw.write(result);
