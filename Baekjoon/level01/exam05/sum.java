@@ -10,6 +10,7 @@ public class sum {
 		int b = scanner.nextInt();
 		
 		System.out.println(a + b);
+		scanner.close();
 	}
 
 }
