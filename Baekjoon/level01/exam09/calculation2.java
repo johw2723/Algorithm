@@ -14,6 +14,8 @@ public class calculation2 {
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
         
+        br.close();
+        
         System.out.println(a+b);
         System.out.println(a-b);
         System.out.println(a*b);
