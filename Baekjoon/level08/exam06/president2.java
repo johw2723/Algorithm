@@ -23,7 +23,7 @@ public class president2 {
 			
 			// h Ãþ n È£ = (h-1)Ãþ 1È£ + ... (h-1)Ãþ wÈ£
 			
-			/* iÃþ 1È£
+			/* hÃþ 1È£
 			 * 1  4 10 20 35 56 84 120
 			 * 1  3  6 10 15 21 28 36 
 			 * 1  2  3  4  5  6  7  8 : 0Ãþ nÈ£
@@ -31,8 +31,8 @@ public class president2 {
 			int[][] APT = new int[15][15];
 			
 			for(int j=1; j<15; j++) {
-				APT[j][1] = 1; // i Ãþ 1È£
-				APT[0][j] = j; // 0Ãþ iÈ£
+				APT[j][1] = 1; // j Ãþ 1È£
+				APT[0][j] = j; // 0Ãþ jÈ£
 			}
 			
 			for(int j=1; j<15; j++) {
