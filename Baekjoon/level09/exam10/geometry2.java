@@ -10,7 +10,7 @@ public class geometry2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		double R = Integer.parseInt(br.readLine());
+		double R = Double.parseDouble(br.readLine());
 		br.close();
 		
 		// 유클리드 기하학 : D(T₁, T₂)² = (x₁ - x₂)² + (y₁ - y₂)² 
