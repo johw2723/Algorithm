@@ -13,14 +13,16 @@ public class factorial4 {
 		int N = Integer.parseInt(br.readLine());
 		br.close();
 		
-		int cal = factorial(N);
+		int cal = 1;
+		
+		// N이 0이 아닐 때 까지 1씩 감소하면서 cal에 반복적으로 곱한다.
+		while(N != 0) {
+			cal = cal * N;
+			N--;
+		}
+		
 		System.out.println(cal);
 
-	}
-
-	private static int factorial(int N) {
-		if(N == 0) return 1; // 재귀 종료조건
-		return N * factorial(N - 1);
 	}
 
 }
